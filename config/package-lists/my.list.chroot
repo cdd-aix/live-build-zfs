@@ -1,1 +1,1 @@
-debootstrap dosfstools gdisk spl-dkms zfsutils-linux
+aptitude debootstrap dosfstools gdisk spl-dkms
