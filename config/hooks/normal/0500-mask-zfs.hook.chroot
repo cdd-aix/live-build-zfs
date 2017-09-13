@@ -1,0 +1,6 @@
+#!/bin/sh
+set -e
+aptitude install -y zfsutils-linux
+systemctl mask zfs-mount.service
+systemctl mask zfs-share.service
+systemctl mask zfs-zed.service
