@@ -8,4 +8,6 @@ lb config noauto \
 	--bootappend-live 'boot=live components quiet splash persistence' \
 	--binary-images iso-hybrid \
 	--image-name live-zfs \
+	--cache true \
+	--cache-packages true \
 	"${@}"
