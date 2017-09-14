@@ -5,5 +5,7 @@ set -e
 lb config noauto \
 	--archive-areas "main contrib non-free" \
 	--bootloaders 'syslinux' \
-	--bootappend-live 'boot=live components quiet splash persistence'
+	--bootappend-live 'boot=live components quiet splash persistence' \
+	--binary-images iso-hybrid \
+	--image-name live-zfs \
 	"${@}"
