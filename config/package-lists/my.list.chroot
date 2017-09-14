@@ -1,1 +1,1 @@
-aptitude debootstrap dosfstools gdisk spl-dkms
+aptitude debootstrap dosfstools gdisk git spl-dkms task-ssh-server
